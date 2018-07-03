@@ -1,277 +1,245 @@
- <!DOCTYPE html>
-<html>
+<!DOCTYPE html>
+<html><head>
+<meta http-equiv="content-type" content="text/html; charset=UTF-8">
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+	<title>Madabreizh Agency</title>
+	<link rel="stylesheet" type="text/css" href="Madabreizh%20Agency_fichiers/main.css">
+	<link rel="stylesheet" type="text/css" href="Madabreizh%20Agency_fichiers/animate.css">
+	<link rel="stylesheet" type="text/css" href="Madabreizh%20Agency_fichiers/font-awesome.css">
+	<link rel="stylesheet" type="text/css" href="Madabreizh%20Agency_fichiers/responsive.css">
 
-<head>
-    <meta charset="utf-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <title>Home</title>
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link rel="stylesheet" type="text/css" media="screen" href="/src/css/main.css" />
 </head>
-
 <body>
-<!-- Load Facebook SDK for JavaScript -->
-<div id="fb-root"></div>
-<script>(function(d, s, id) {
-  var js, fjs = d.getElementsByTagName(s)[0];
-  if (d.getElementById(id)) return;
-  js = d.createElement(s); js.id = id;
-  js.src = 'https://connect.facebook.net/fr_FR/sdk/xfbml.customerchat.js#xfbml=1&version=v2.12&autoLogAppEvents=1';
-  fjs.parentNode.insertBefore(js, fjs);
-}(document, 'script', 'facebook-jssdk'));</script>
+    <script>
+            window.fbAsyncInit = function() {
+                FB.init({
+                        appId: '166064664090979',
+                        autoLogAppEvents: true,
+                        xfbml: true,
+                        version: 'v2.12'
+                    });
+            };
 
-<!-- Your customer chat code -->
-<div class="fb-customerchat"
-  attribution=setup_tool
-  page_id="140411273317039"
-  logged_in_greeting="Avez-vous besoin d'aide ?"
-  logged_out_greeting="Avez-vous besoin d'aide ?">
-</div>
-    <header class="header">
-        <div class="navbar">
-            <nav class="navbar-wrapper">
-                <div class="navbar-left">
-                    <div class="logo">
-                        <img src="/src/img/logo.png" class='img-logo'>
-                    </div>
-                </div>
-                <div class="navbar-right">
-                    <a href="" class="navbar-link navbar-link-lang">FR</a> |
-                    <a href="" class="navbar-link navbar-link-lang">EN</a>
-                </div>
-                <div class="navbar-center">
-                    <a href="/about" class="navbar-link">A PROPOS</a>
-                    <a href="/contact" class="navbar-link">L'EQUIPE</a>
-                    <a href="#services" class="navbar-link">NOS SERVICES</a>
-                    <a href="/work" class="navbar-link">NOS TRAVAUX</a>
-                    <a href="/contact" class="navbar-link">CONTACT</a>
-                    <a href="/blog" class="navbar-link">BLOG</a>
-                    <a href="/quotation" class="link-button-secondary">DEMANDER UN DEVIS GRATUITEMENT</a>
-                </div>
-
-            </nav>
-        </div>
-        <div class="slide">  
-            <section class="slider-item intro-text">
-                <h1 class="intro-text-title">
-                    RESPONSIVE C'EST BIEN,<br/>MOBILE FIRST C'EST MIEUX ! 
-                </h1>
-                <p class="text">
-                    Des sites conçu pour une affichage optimale sur tout les appareils (Desktop,Smartphone,Tablette...) 
-
-                </p>
-                <p class="text">
-                    <a href="/web-design.html#mobile-first" class="link-button">EN SAVOIR PLUS</a>
-                </p>
-            </section>
-		    <section class="slider-item intro-text">
-		        <h1 class="intro-text-title">
-		            GENEREZ DES LEADS DE QUALITE AVEC LES BOTS MESSENGER
-		        </h1>
-		        <p class="text">
-		            Les BOTS,ces petits robots qui vous facilite la vie.
-
-                </p>
-		        <p class="text">
-		            <a href="/digital-marketing.html#messenger-bot" class="link-button">EN SAVOIR PLUS</a>
-		        </p>
-		    </section>
-		    <section class="slider-item intro-text">
-		        <h1 class="intro-text-title">
-		           UN SITE WEB MODERNE DIGNE DE VOTRE ENTREPRISE
-		        </h1>
-		        <p class="text">
-		           Modernes,facile d'utilisation et multiplatforme.Une experience unique pour vos utilisateurs !
-                </p>
-		        <p class="text">
-		            <a href="/web-design.html#modern" class="link-button">EN SAVOIR PLUS</a>
-		        </p>
-		    </section>
-            <section class="slider-item intro-text">
-                <h1 class="intro-text-title">
-                    IMMORTALISEZ VOS EVENEMENTS MARQUANTS
-                </h1>
-                <p class="text">
-                    Immortaliser vos jour-J ou mettez en valeur vos produits. Nos photographes & videastes seront là !
-                </p>
-                <p class="text">
-                    <a href="/photos-videos.html" class="link-button">EN SAVOIR PLUS</a>
-                </p>
-            </section>
-             <section class="slider-item intro-text">
-                <h1 class="intro-text-title">
-                    UNE EXPERIENCE UTILISATEUR EXCEPTIONELLE,<br/>DU PROSPECT A L 'AMBASSADEUR
-                </h1>
-                <p class="text">
-                    Facilité la vie des visteur et ne perdez plus du trafic. Cela grâce a un "user experience" bien étudier.
-                </p>
-                <p class="text">
-                    <a href="/ux.html" class="link-button">EN SAVOIR PLUS</a>
-            </section>
-            <section class="slider-item intro-text">
-                <h1 class="intro-text-title">
-                    SERIEUSEMENT SUR LES RESEAUX SOCIAUX!
-                </h1>
-                <p class="text">
-                    Constitution d’une communauté,publications engageantes,modération des commentaires.    
-                </p>
-                <p class="text">
-                    <a href="/digital-marketing.html#socials" class="link-button">EN SAVOIR PLUS</a>
-           </section>
-            <section class="slider-item intro-text">
-                <h1 class="intro-text-title">
-                        MODE HORS BUREAU
-                </h1>
-                <p class="text">
-                    Animation des réseaux sociaux de la marque le dimanche et les jours fériés.
-                </p>
-                <p class="text">
-                    <a href="/more" class="link-button">EN SAVOIR PLUS</a>
-                </p>
-            </section>
-		</div>
-    </header>
-    <div class="wrapper secondary">
-        <div class="container center">
-            <h1 class="title">
-                A PROPOS DE NOUS
-            </h1>
-            <div class="section-text">
-                <p class="justify">
-                   MADABREIZH Agency est une agence web & multimédia Franco-Malagasy 
-                   spécialisée dans divers domaines tels que la création de sites Web, 
-                   couvertures photos & vidéos d’événements, créations audio & musicale, 
-                   études & enquêtes, graphisme et de bien plus encore.
-                   Comment ça marche?Vos besoins/Vos objectifs > Notre réflexion/Notre analyse >
-                   Notre proposition/Notre stratégie créative > Exécution
-                   Confier vos projets à une équipe de passionner ! 
-                    <br/>
-                </p>
-                <a href="/more" class="link-button">EN SAVOIR PLUS</a> 
-            </div>
-        </div>
-    </div>
-    <div class="wrapper" id="services">
-        <div class="container center">
-            <h1 class="title">NOS SERVICES</h1>
-            <p class="text">
-                Plusieurs solutions pour vos besoins et de votre entreprise.
-                <br/>
-            </p>
-            <div class="card-container">
-                <div class="card">
-                    <h3>Création de site web</h3>
-                    Web design-UX design & UI/Wireframe & Prototypage/Integration web/Devellopement back end/Referencement et SEO.
-                    <br/><br/>
-                    <a href="/more" class="link-button">EN SAVOIR PLUS</a>
-                </div>
-                <div class="card">
-                    <h3>Photo & Video</h3>
-                    Mariage/Anniversaires/
-                    Evenements/
-                    Photo a usage professionel & industriel/Video clip...
-                    <br/><br/><br/>
-                    <a href="/more" class="link-button">EN SAVOIR PLUS</a>
-                </div>
-                <div class="card">
-                    <h3>Création audio <br/>& Musicale</h3>
-                   Doublage et voix-off/Identité sonore/Composition musicale/Jingle/Bande-son ou playback/Mixage et pré-mastering...
-                   <br/>
-                    <a href="/more" class="link-button">EN SAVOIR PLUS</a>
-                </div>
-                <div class="card">
-                    <h3>Web marketing</h3>
-                    Community Management/Bots Messenger/Rapports de performance/Gestion de l'E-reputation/Veille concurentielle...
-                    <br/><br/>
-                    <a href="/more" class="link-button">EN SAVOIR PLUS</a>
-                </div>
-                <div class="card">
-                    <h3>Etudes et enquêtes</h3>
-                   Études de marché/Enquêtes d'usages/Enquêtes de satisfaction/Enquête de notoriété...s
-                    <br/><br/><br/>
-                    <a href="/more" class="link-button">EN SAVOIR PLUS</a>
-                </div>
-                <div class="card">
-                    <h3>Création graphique</h3>
-                    Logo/Flyers/Retouche photo/Illustrations graphique...
-                    <br/><br/><br/><br/><br/>
-                    <a href="/more" class="link-button">EN SAVOIR PLUS</a>
-                </div>
-                <div class="card">
-                    <h3>Synthèse & traitement de dossier</h3>
-                    Synthese/Traduction/Saisie de donnée & mise en forme...
-                    
-                    <br/><br/><br/><br/>
-                    <a href="/more" class="link-button">EN SAVOIR PLUS</a>
-                </div>
-                <div class="card">
-                    <h3>Audit SEO & UX</h3>
-                    UX & UI/Audit SEO...
-                    <br/><br/><br/><br/><br/><br/>
-                    <a href="/more" class="link-button">EN SAVOIR PLUS</a>
-                </div>
-                
-            </div>
-        </div>
-    </div>
-    <div class="wrapper secondary">
-        <div class="container contact-container">
-            <h1 class="title">CONTACT</h1>
-            <p class="text">
-                    Discutons de la façon dont nous pouvons vous aider,contactez-nous .
-                    <br/>
-                </p>
-            <div class="section-content contact-text">
-                <div class="section-text contact">
-                    <p class="contact-p">
-                        <img src="src/img/icons/call-answer.svg" class="left-icon">
-                        Appellez nous 
-                        <a href="tel:+261344345905">
-                            <b>+261 34 43 459 05</b>
-                        </a>
-                    </p>   
-                    <br/>
-                    <p class="contact-p">
-                        <img src="src/img/icons/placeholder.svg" class="left-icon">
-                        Venez nous rencontrer à l'adresse <b>LOT MAVI 10 Maibahoaka</b>
-                    </p>
-                </div>
-            </div>
+            (function(d, s, id) {
+                var js, fjs = d.getElementsByTagName(s)[0];
+                if (d.getElementById(id)) {
+                    return;
+                }
+                js = d.createElement(s);
+                js.id = id;
+                js.src = "https://connect.facebook.net/fr_FR/sdk.js";
+                fjs.parentNode.insertBefore(js, fjs);
+            }(document, 'script', 'facebook-jssdk'));
+        </script>
+        <script type="text/javascript">
             
-            <div class="section-content contact-secondary">
-                <form method="post" class="form-mail" spellcheck="false">
-                    <input type="text" name="name" placeholder="Nom" class="form-control md">
-                    <input type="text" name="email" placeholder="Adresse email" class="form-control md">
-                    <input type="text" name="object" placeholder="Objet" class="form-control">
-                    <textarea name="message" placeholder="Message" class="form-control message"></textarea>
-                    <input type="submit" class="button" value="ENVOYER">
-                </form> 
-
-            </div>
+        </script>
+        <div class="fb-customerchat" 
+            page_id="187152292049898" 
+            theme_color="#7777FF" 
+            greeting_dialog_display="show">
         </div>
-    </div>
-    <footer class="footer">
-        <div class="footer-inner">  
-            <div class="footer-left">
-                <a href="">Mentions légales</a>
-                <a href="">Contrat général de vente</a>
-                <a href="">Politiques de confidentialité</a>
-            </div> 
-        </div>
-        <div class="footer-right">
-            &copy Madabreizh Agency 2018
-        </div> 
-    </footer>
-    <script type="text/javascript" src="src/js/jquery.min.js"></script>
-    <script type="text/javascript" src="src/js/text-slider.js"></script>
-    <script type="text/javascript" src="src/js/main.js"></script>
-    <script type="text/javascript">
-    	$('.slide').textSlider({
-			timeout: 7000,
-			slideTime: 800,
-			loop: 1
-		});
-    </script>
-</body>
+<div class="loader-wraper">
+	<div class="loader">Madabreizh</div>
+</div>
+<div class="socials">
+	<ul>
+		<li>
+			<a href="">
+				<i class="icon-linkedin"></i>
+			</a>
+		</li>
+		<li>
+			<a href="">
+				<i class="icon-facebook"></i>
+			</a>
+		</li>
+		<li>
+			<a href="">
+				<i class="icon-twitter"></i>
+			</a>
+		</li>
+		<li>
+			<a href="">
+				<i class="icon-google-plus"></i>
+			</a>
+		</li>
+	</ul>
+</div>
+<div class="header-wraper" id="home">
+	<div class="header">
+		<div class="logo">
+			<a href="http://localhost/madabreizh/index">#MADABREIZH_AGENCY</a>
+		</div>
+		<span class="menu_icon" onclick="$('#resp_menu').show()">
+			<span class="icon-bar"></span>
+			<span class="icon-bar"></span>
+			<span class="icon-bar"></span>
+		</span>
+		<div class="navbar_right">
+			<ul class="menu">
+				<li><a href="#about" onclick="$('#resp_menu').slideUp(500)">A PROPOS DE NOUS</a></li>
+				<li>
+					<a href="#services" class="sub_menu_link" onclick="$('#resp_menu').slideUp(500)">
+						NOS SERVICES
+					</a>
+				</li>
 
-</html>
+				<li><a href="#examples" onclick="$('#resp_menu').slideUp(500)">DES APERCUS</a></li>
+				<li><a href="http://localhost/madabreizh/blog.php">BLOG</a></li>
+				<li><a href="#contact" onclick="$('#resp_menu').slideUp(500)">CONTACT</a></li>
+			</ul>
+		</div>
+		<div class="responsive_menu wow slideInDown animated animated" id="resp_menu" style="visibility: visible; animation-name: slideInDown;">
+		<ul class="menu">
+			<li><a href="#about" onclick="$('#resp_menu').slideUp(500)">A PROPOS DE NOUS</a></li>
+			<li><a href="#services" onclick="$('#resp_menu').slideUp(500)">NOS SERVICES</a></li>
+			<li><a href="#examples" onclick="$('#resp_menu').slideUp(500)">DES APERCUS</a></li>
+			<li><a href="http://localhost/madabreizh/blog.php">BLOG</a></li>
+			<li><a href="#contact" onclick="$('#resp_menu').slideUp(500)">CONTACT</a></li>
+		</ul>
+		<i class="fa fa-close close-menu" onclick="$('#resp_menu').slideUp(500)"></i>
+		</div>
+	</div>
+
+	<div class="slider_container">
+		<div id="slider_navigation_left" onclick="plusSlide(-1)"></div>
+		<div id="slider_navigation_right" onclick="plusSlide(1)"></div>
+
+		<div class="slider_content wow fadeInLeft animated animated" data-wow-delay=".4s" style="visibility: visible; animation-delay: 0.4s; animation-name: fadeInLeft;">
+			<div class="slider_content_description slider_fade" style="display: block;">
+				<p>
+					MADABREIZH AGENCY
+				</p>
+				<p>
+					Réalisons vos souhaits !
+				</p>
+				<a href="" class="btn_link">EN SAVOIR PLUS</a>
+			</div>
+			<div class="slider_content_description slider_fade" style="display: none;">
+				<p>
+					Propulsez votre business en faisant appel à nos experts en création de site web et en marketing digital
+				</p>
+				<a href="" class="btn_link">EN SAVOIR PLUS</a>
+			</div>
+			<div class="slider_content_description slider_fade" style="display: none;">
+				<p>
+					Nous nous mettons à votre disposition pour tout type de création 
+d'illustration graphique (logos, banières, flyers, etc ...)
+				</p>
+				<a href="" class="btn_link">EN SAVOIR PLUS</a>
+			</div>
+			<div class="slider_content_description slider_fade" style="display: none;">
+				<p>
+					Confiez-nous la couverture de vos évènements (Mariage, Anniversaire, Vidéo professionnel …).
+				</p>
+				<a href="" class="btn_link">EN SAVOIR PLUS</a>
+			</div>
+		</div>
+		
+		<div class="slider_dots">
+			<div class="slider_dot slider_active" onclick="currentSlide(1)"></div>
+			<div class="slider_dot" onclick="currentSlide(2)"></div>
+			<div class="slider_dot" onclick="currentSlide(3)"></div>
+			<div class="slider_dot" onclick="currentSlide(4)"></div>
+		</div>
+		
+
+	</div>
+	<br>
+</div>
+<div class="section-wraper" id="about">
+	<div class="section-container">
+		<div class="section-img-wraper section-left wow fadeInLeft animated" data-wow-delay="1s" style="visibility: hidden; animation-delay: 1s; animation-name: none;">
+			<img src="img/seo-592747.png" class="section-img-preview">
+		</div>
+		<div class="section-content-container wrap-left-sm wow fadeInRight animated" data-wow-delay="1s" style="visibility: hidden; animation-delay: 1s; animation-name: none;">
+			<h1 class="section_title">
+				MADABREIZH AGENCY
+			</h1>
+			<br>
+			<h3 class="section-subtitle">
+				Madabreizh, réalisons vos souhaits !
+			</h3>
+			<p class="section-content">
+				MADABREIZH Agency est une agence web & digital Franco-Malgache spécialisé dans divers domaines telle que la création Web, E-Marketing et Multimédia : création de site web, analyse de données, recherches marketing, Graphisme, Vidéo, Jingle, Illustration sonore et bien plus....
+Avec l’ampleur que prend le domaine du digital et du web dans la vie quotidienne, être présent dans ce milieu est une obligation et nécessité pour tout entité qui veut étendre son champ d’action mais aussi une mine d’or pour collecter des prospects. Nous avons pour missions la réalisation de tous vos projets, avec toute l’attention qu’ils le méritent, tout en respectant les normes qui se fait et veille toujours à être la pointe des innovations. Des services personnalisés, selon vos besoins et vos moyens. Confier vos projets à une équipe de passionner.
+
+			</p>
+
+		</div>
+	</div>
+</div>
+<div class="section-wraper section__secondary__color" id="services">
+	<div class="section-container">
+		<div class="card-container wow fadeInLeft animated" data-wow-delay=".2s" style="visibility: hidden; animation-delay: 0.2s; animation-name: none;">
+			<div class="card wow slideInLeft animated" data-wow-delay=".3s" style="visibility: hidden; animation-delay: 0.3s; animation-name: none;">
+				<img src="Madabreizh%20Agency_fichiers/facebook.png" class="card-img">
+				<p>
+				Photo & Vidéo  
+				</p>
+				<a href="" class="card-link">EN SAVOIR PLUS </a>
+			</div>
+			<div class="card wow bounceIn animated" data-wow-delay=".2s" style="visibility: hidden; animation-delay: 0.2s; animation-name: none;">
+				<img src="Madabreizh%20Agency_fichiers/google-plus.png" class="card-img">
+				<p>
+				Web design & UX 
+				</p>
+				<a href="" class="card-link">EN SAVOIR PLUS </a>
+			</div>
+			<div class="card wow bounceIn animated" data-wow-delay=".5s" style="visibility: hidden; animation-delay: 0.5s; animation-name: none;">
+				<img src="Madabreizh%20Agency_fichiers/twitter.png" class="card-img">
+				<p>
+				Etude de marché et web marketing 
+				</p>
+				<a href="" class="card-link">EN SAVOIR PLUS </a>
+			</div>
+			<div class="card wow bounceInLeft animated" data-wow-delay=".5s" style="visibility: hidden; animation-delay: 0.5s; animation-name: none;">
+				<img src="Madabreizh%20Agency_fichiers/linkedin.png" class="card-img">
+				<p>
+				Développement web & mobile
+				</p>
+				
+			</div>
+		</div>
+	</div>
+</div>
+<div class="section-wraper section__about" id="examples">
+	<div class="section-container">
+		<div class="section-img-wraper section-right wow fadeInLeft animated" data-wow-delay=".4s" style="visibility: hidden; animation-delay: 0.4s; animation-name: none;">
+			<img src="Madabreizh%20Agency_fichiers/mockup.png" class="section-img-preview">
+		</div>
+		<div class="section-content-container wow fadeInRight animated" data-wow-delay=".4s" style="visibility: hidden; animation-delay: 0.4s; animation-name: none;">
+			<h1 class="section_title">
+				MADABREIZH AGENCY
+			</h1>
+			<br>
+			<h3 class="section-subtitle">
+				Première agence digitale multi-service, basé à Madagascar
+			</h3>
+			<p class="section-content">
+				Author writes about designing with the correct typeface; striving 
+for rhythm, proportion, and harmony; choosing and combining type; 
+designing pages; using section heads, subheads, footnotes, and tables; 
+applying kerning and other type adjustments to improve legibility; and 
+adding special characters, including punctuation and diacritical marks.
+
+				The Elements of Typographic Style teaches the history of and the 
+artistic and practical perspectives on a variety of type families that 
+are available in Europe and America today.
+			</p>
+
+		</div>
+	</div>
+</div>
+<script type="text/javascript" src="Madabreizh%20Agency_fichiers/jquery.js"></script>
+<script type="text/javascript" src="Madabreizh%20Agency_fichiers/slider.js"></script>
+<script type="text/javascript" src="Madabreizh%20Agency_fichiers/wow.js"></script>
+<script type="text/javascript" src="Madabreizh%20Agency_fichiers/main.js"></script>
+<script>
+	new WOW().init();
+</script>
+
+
+</body></html>
