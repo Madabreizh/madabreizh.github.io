@@ -1,0 +1,231 @@
+@media screen and (max-height: 400px){
+	.header-wraper{
+		
+	}
+	.slider_content{
+		height: 300px;
+
+	}	
+	#slider_navigation_left, #slider_navigation_right {
+		top: 110px;
+	}
+}
+@media screen and (min-width: 300px) and (max-width: 500px){
+	.header-wraper{
+		
+	}
+	.slider_content{
+		height: 400px;
+
+	}	
+	#slider_navigation_left, #slider_navigation_right {
+		top: 200px;
+	}
+}
+
+@media screen and (max-width:1424px){
+	.socials{
+		display: none;
+	}
+	.header{
+		line-height: 30px;
+		height: 30px;
+		width: 98%;
+	}
+	.logo{
+		font-size: 28px;
+	}
+	.navbar_right{
+		float: right;
+		color: #FFF;
+		text-align: right;
+		font-size: 15px;
+		letter-spacing: 1px;	
+		position: absolute;
+		right: 5px;
+		top: 50px;
+		display: none;
+	}
+	.responsive_menu{
+		display: none;
+		position: fixed;
+		width: 100%;
+		height: 100%;
+		z-index: 1200;
+		top: 0; bottom: 0; left: 0; right: 0;			
+		background: #615070;
+		background: -webkit-linear-gradient(top right,#615070 , #514070, #615060);
+		background: -moz-linear-gradient(left,#615070 , #514070, #615060);
+		background: -o-linear-gradient(left,#615070 , #514070, #615060);
+		text-align: center;
+	}
+	.responsive_menu .close-menu{
+		position: absolute;
+		bottom: 30px;
+		font-size: 30px;
+		font-weight: normal;
+		color: #FFF;
+		margin: auto; 
+		display: inline-block;
+		width: 40px;
+		height: 40px;
+		line-height: 40px;
+		left: 0; right: 0;
+	}
+	.responsive_menu ul{
+		padding: 0;
+		margin: auto;
+		width: 200px;
+		height: 100%;
+		position: absolute;
+		top: 0; bottom: 0; left: 0; right: 0;
+		height: 370px;
+
+	}
+	.responsive_menu ul li{
+		list-style: none;
+		font-size: 20px;
+		line-height: 50px; 
+		/*color: #FFF;
+		background: rgba(20,20,20,0.2);*/
+		margin: 20px 0;
+		font-weight: bold;
+	}
+	.responsive_menu ul li a{
+		border-radius: 20px;
+		color: #615070;
+		background: #FFF;
+		display: block;
+		width: 200px;
+		transition: all .2s;
+	}
+	.responsive_menu ul li a:hover{
+		background: rgba(20,20,20,0.2);
+		color: #FFF;
+		transition: all .2s;
+	}
+	.navbar_right ul li{
+		display: block;
+	}
+	.menu_icon{
+		position: absolute;
+		top: 20px;
+		right: 30px;
+		display: block;
+		width: 15px;
+		height: 15px;
+		cursor: pointer;
+		transition: opacity 200ms;
+	}
+	.menu_icon:hover {
+		opacity: 0.7;
+	}
+	.icon-bar{
+		margin-top: 4px;
+		background-color: #FFF;
+		display: block;
+	    width: 22px;
+	    height: 2px;
+	    border-radius: 1px;
+	}
+	.slider{
+		width: 100%;
+		margin: 40px auto;
+	}
+	.slider_content{
+		width: 80%;
+		text-align: center;
+		margin: 0px auto;
+	}
+	.slider_container{
+	}
+	
+	.slider_content_description{
+		position: relative;
+		top: 20%;
+		line-height: 45px;
+		width: 80%;
+		font-size: 30px;
+	}
+	.btn_link{
+		font-size: 16px;
+		
+	}
+	#slider_navigation_left{
+		left: 0;
+		width: 35px;
+		height: 35px;
+		background-size: 25px;
+		transition: background 140ms;
+	}
+	#slider_navigation_right{
+		right: 0;
+		width: 35px;
+		height: 35px;
+		background-size: 25px;
+		transition: background 140ms;
+	}
+	#slider_navigation_left:hover, #slider_navigation_right:hover{
+		background-color: rgba(20,20,20,0.5);
+		cursor: pointer;
+		transition: background 140ms;
+	}
+	.slider_dot{
+		width: 14px;
+		height: 14px;
+	}
+	h1, h2, h3, h4, h5, h6{
+		line-height: 32px;
+		margin: 0;
+	}
+	.section-wraper{
+		font-size: 15px;
+		width: 100%;
+		margin: 0 auto;
+		font-family: "Proxima";
+		padding: 20px 0;
+		color: #666;
+		background-color: #FFF;
+		height: auto;
+		 
+	}
+	.section-container{
+		width: 90%;
+	}
+	.section-left{
+		float: none ;
+	}
+	.section-right{
+		float: none ;
+	}
+	.section-img-wraper{
+		width: 100%;
+		padding: 20px 0;
+		float: none;
+	}
+	.section-img-preview{
+		margin: 0 auto;
+		width: 45%;
+		margin: 0px auto;
+		display: block;
+	}
+	.section-content-container{
+		display: block;	
+		text-align: justify;
+		width: 85%;
+		padding: 0px 0;
+		margin: 0px auto;
+	}
+	.section-title{
+		font-family: "Proxima Bold";
+		font-size: 25px;
+		color: #555;
+	}
+	.section-content{
+		line-height: 32px;
+		bottom : 20px;
+		font-size: 15px;
+		margin: 10px 0;
+		padding: 0;
+	}
+}
